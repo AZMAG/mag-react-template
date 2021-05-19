@@ -1,0 +1,27 @@
+.esri-widget {
+  // background-color: $widget-color;
+  // color: $widget-text;
+}
+
+// css for home and zoom buttons
+.esri-widget--button {
+  //   background-color: $widget-color;
+  //   color: $widget-text;
+
+  &:hover {
+    // background-color: lighten($widget-color, 20%);
+    // color: $widget-text;
+    // border: 1px solid #001833;
+  }
+
+  &.esri-widget.esri-disabled {
+    // background-color: $widget-color;
+  }
+}
+
+// css for Basemap Toggle Button
+.esri-basemap-toggle__title {
+  // background-color: rgba($widget-color, 0.8);
+  // color: $widget-text;
+  // font-weight: 900;
+}
