@@ -2,6 +2,7 @@
 
 # MAG React Template for ArcGIS API JavaScript with create-react-app
 
+![npm](https://img.shields.io/npm/v/cra-template-mag-react-template)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,26 +19,43 @@ npx create-react-app [my-app-name] --template mag-react-template
 Running this commands will create a directory called `[my-app-name]` inside the current folder. Inside that directory, it will generate the initial project structure and install the dependencies:
 
 ```
-my-app-name
+[my-app-name]
+
 ├── README.md
+├── LICENSE
+├── config-overrides.js
 ├── node_modules
 ├── package.json
 ├── .gitignore
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
+│   ├── humans.txt
 │   ├── manifest.json
-│   └── robots.txt
+│   ├── robots.txt
+│   └── images
+|       |── images/favicons
 └── src
-    ├── App.css
+    ├── components
+    |   |── Layers
+    |   |── Map
+    |   |   |── Map.css
+    |   |   |── Map.scss
+    |   |   └── Map.js
+    |   └── widgets
+    ├── images
+    |   |── various images
+    ├── styles
+    |   |── _colors.scss
+    |   |── _typography.scss
+    |   |── App.css
+    |   |── App.scss
+    |   |── index.css
+    |   └── index.scss
     ├── App.js
     ├── App.test.js
-    ├── index.css
     ├── index.js
-    ├── logo.svg
-    ├── serviceWorker.js
+    ├── reportWebVitals.js
     └── setupTests.js
 ```
 
