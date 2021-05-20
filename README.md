@@ -9,13 +9,57 @@ This repo is a Maricopa Associations of Governments (MAG) template to create a r
 
 ## Get Started
 
-`npx create-react-app [my-app-name] --template [template-name]`
+```
+npx create-react-app [my-app-name] --template mag-react-template
+```
+
+## Output
+
+Running this commands will create a directory called `[my-app-name]` inside the current folder. Inside that directory, it will generate the initial project structure and install the dependencies:
+
+```
+my-app-name
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── serviceWorker.js
+    └── setupTests.js
+```
+
+Once the installation is done, you can open your project folder:
+
+```
+cd [my-app-name]
+```
+
+```
+npm start
+```
+
+Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+
+The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
 ## Version
 
-### version | 1.0.1
+### version | 1.0.4
 
-- #### Updated | 2021-05-01
+- #### Updated | 2021-05-19
 
 - #### Created | 2021-05-18
 
