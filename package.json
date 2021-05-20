@@ -1,6 +1,6 @@
 {
   "name": "cra-template-mag-react-template",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "copyright": "2021",
   "description": "The MAG template for Create React App.",
   "keywords": [
@@ -13,9 +13,11 @@
     "COG",
     "MAG-maps"
   ],
+  "private": false,
+  "main": "template.json",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/AZMAG/mag-react-template"
   },
   "author": {
     "name": "MAG Regional Analytics",
@@ -32,7 +34,6 @@
       "email": "jfairfield@azmag.gov"
     }
   ],
-  "private": false,
   "dependencies": {
     "@arcgis/core": "^4.19.0",
     "@testing-library/jest-dom": "^5.11.5",
@@ -77,5 +78,12 @@
     "node": ">=15.11.0",
     "npm": ">=7.5.6"
   },
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
   "license": "MIT"
 }

@@ -14,6 +14,10 @@ This repo is a Maricopa Associations of Governments (MAG) template to create a r
 npx create-react-app [my-app-name] --template mag-react-template
 ```
 
+`[my-app-name]` should be changed to the actual name of your project and must follow the convention package.json guidelines.
+
+[package.json Guidelines](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
+
 ## Output
 
 Running this commands will create a directory called `[my-app-name]` inside the current folder. Inside that directory, it will generate the initial project structure and install the dependencies:
