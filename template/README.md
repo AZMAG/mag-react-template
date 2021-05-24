@@ -12,7 +12,6 @@
 ### version | 0.0.0
 
 - #### Updated | 0000-00-00
-
 - #### Created | 0000-00-00
 
 Releases will be numbered with the following format:
