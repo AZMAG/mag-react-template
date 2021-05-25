@@ -1,6 +1,7 @@
 {
   "name": "cra-template-mag-react-template",
   "version": "1.0.5",
+  "date": "2021-05-24",
   "copyright": "2021",
   "description": "The MAG template for Create React App.",
   "keywords": [
@@ -43,11 +44,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.0",
+    "replace-in-file": "^6.2.0",
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
-    "ncp": "^2.0.0",
     "customize-cra": "^1.0.0",
+    "ncp": "^2.0.0",
     "react-app-rewired": "^2.1.8"
   },
   "scripts": {
@@ -55,7 +57,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "say-hello": "echo 'Hello World!'"
+    "say-hello": "echo 'Hello World!'",
+    "test2": "node replaceScripts"
   },
   "eslintConfig": {
     "extends": [

@@ -50,8 +50,8 @@ humanstxt.org/
 
 # SITE
 
-    Site Name: MapLIT 2.0
-    Site URL: https://geo.azmag.gov/maps/readonaz
+    Site Name: NAME
+    Site URL: https://
     Version: 2.1.1
 	Last updated: 2020-08-21
     Creation date: 2016-10-03
