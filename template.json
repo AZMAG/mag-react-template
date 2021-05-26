@@ -45,6 +45,7 @@
     "scripts": {
       "start": "react-app-rewired start",
       "build": "react-app-rewired build",
+      "prepare": "replace",
       "test": "react-app-rewired test",
       "eject": "react-app-rewired eject",
       "replace": "node replace"
@@ -66,7 +67,7 @@
     },
     "engines": {
       "node": ">=15.11.0",
-      "npm": ">=7.5.6"
+      "npm": ">=7.14.0"
     },
     "license": "MIT"
   }
