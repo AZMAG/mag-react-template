@@ -40,7 +40,9 @@
       "web-vitals": "^0.2.4",
       "normalize.css": ">=8.0.1",
       "react-joyride": "^2.3.0",
-      "replace-in-file": "^6.2.0"
+      "replace-in-file": "^6.2.0",
+      "react-bootstrap": "^1.6.0",
+      "prettier": "^2.3.0"
     },
     "scripts": {
       "start": "react-app-rewired start",
