@@ -2,13 +2,7 @@
   "package": {
     "copyright": "2021",
     "description": "",
-    "keywords": [
-      "maps",
-      "MAG",
-      "MPO",
-      "COG",
-      "MAG-maps"
-    ],
+    "keywords": ["maps", "MAG", "MPO", "COG", "MAG-maps"],
     "repository": {
       "type": "git",
       "url": ""
@@ -30,10 +24,12 @@
     ],
     "dependencies": {
       "@arcgis/core": "^4.19.0",
+      "@progress/kendo-react-common": "^4.6.0",
+      "react-bootstrap": "^1.6.0",
+      "mag-react-components": "^1.0.18",
       "@testing-library/jest-dom": "^5.11.4",
       "@testing-library/react": "^11.1.0",
       "@testing-library/user-event": "^12.1.10",
-      "mag-react-components": "^1.0.18",
       "react-app-rewired": "^2.1.8",
       "ncp": "^2.0.0",
       "customize-cra": "^1.0.0",
@@ -41,16 +37,14 @@
       "normalize.css": ">=8.0.1",
       "react-joyride": "^2.3.0",
       "replace-in-file": "^6.2.0",
-      "react-bootstrap": "^1.6.0",
       "prettier": "^2.3.0"
     },
     "scripts": {
       "start": "react-app-rewired start",
-      "build": "react-app-rewired build",
-      "prepare": "replace",
+      "build": "npm run replace && react-app-rewired build",
       "test": "react-app-rewired test",
       "eject": "react-app-rewired eject",
-      "replace": "node replace"
+      "replace": "node replaceScripts"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]

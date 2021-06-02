@@ -1,7 +1,7 @@
 {
-  "name": "cra-template-mag-react-arcgis-template",
-  "version": "1.0.5",
-  "date": "2021-05-25",
+  "name": "cra-template-mag-react-template",
+  "version": "1.0.7",
+  "date": "2021-06-02",
   "copyright": "2021",
   "description": "The MAG template for Create React App.",
   "keywords": [
@@ -16,9 +16,6 @@
   ],
   "private": false,
   "main": "template.json",
-  "publishConfig": {
-    "registry": "https://www.npmjs.com/package/cra-template-mag-react-template"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/AZMAG/mag-react-template"
@@ -39,7 +36,6 @@
     }
   ],
   "dependencies": {
-    "@arcgis/core": "^4.19.0",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -54,15 +50,15 @@
   "devDependencies": {
     "customize-cra": "^1.0.0",
     "ncp": "^2.0.0",
-    "react-app-rewired": "^1.6.2",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "react-app-rewired": "^1.6.2"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "prepare": "replace",
-    "test": "react-app-rewired test",
+    "prepublishOnly": "npm run replace",
     "replace": "node replaceScripts",
+    "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
@@ -84,7 +80,7 @@
     ]
   },
   "engines": {
-    "node": ">=15.11.0",
+    "node": ">=16.2.0",
     "npm": ">=7.14.0"
   },
   "bugs": {

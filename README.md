@@ -63,6 +63,8 @@ Running this commands will create a directory called `[my-app-name]` inside the 
     └── setupTests.js
 ```
 
+## Installation
+
 Once the installation is done, you can open your project folder:
 
 ```
@@ -79,9 +81,9 @@ The page will automatically reload if you make changes to the code. You will see
 
 ## Version
 
-### version | 1.0.5
+### version | 1.0.7
 
-- #### Updated | 2021-05-24
+- #### Updated | 2021-06-02
 - #### Created | 2021-05-18
 
 Releases will be numbered with the following format:
@@ -94,9 +96,12 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-## Credits
+## Technologies
 
-`Maricopa Association of Governments (MAG) and the MAG member agencies`
+A list of technologies used within the project:
+
+- [React](https://reactjs.org/): Version 17.02
+- [Create React App](https://github.com/facebook/create-react-app): Version 4.0.3
 
 ## Requirements
 
@@ -115,6 +120,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Credits
+
+`Maricopa Association of Governments (MAG) and the MAG member agencies`
+
 ## Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
@@ -122,3 +131,5 @@ Copyright 2021 Maricopa Association of Governments (MAG)
 Code released under the MIT license.
 
 - [LICENSE](LICENSE)
+
+[(Back to top)](##Get-Started)

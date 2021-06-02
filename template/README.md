@@ -24,6 +24,14 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
+## Technologies
+
+A list of technologies used within the project:
+
+- [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/): Version 4.19.0
+- [React Bootstrap](https://react-bootstrap.github.io/): Version 1.6.0
+- [KendoReact](https://www.telerik.com/kendo-react-ui/b/): Version 4.7.0
+
 ## Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
@@ -35,3 +43,5 @@ Copyright 2021 Maricopa Association of Governments (MAG)
 Code released under the MIT license.
 
 - [LICENSE](LICENSE)
+
+[(Back to top)](##Keywords)
