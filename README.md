@@ -3,7 +3,7 @@
 # MAG React Template for ArcGIS API JavaScript with create-react-app
 
 ![npm](https://img.shields.io/npm/v/cra-template-mag-react-template)
-[![Semver](http://img.shields.io/SemVer/<%= pkg.version %>.png)](http://semver.org/)
+[![Semver](http://img.shields.io/SemVer/2.0.0.png)](https://shields.io/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This repo is a Maricopa Associations of Governments (MAG) template to create a react project using all of the features of Create React App.

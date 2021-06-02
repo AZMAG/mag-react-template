@@ -2,7 +2,7 @@
 
 # MAG React Template
 
-[![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v4.4.7.html)
+[![Semver](http://img.shields.io/SemVer/2.0.0.png)](https://shields.io/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Keywords
