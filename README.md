@@ -81,7 +81,7 @@ The page will automatically reload if you make changes to the code. You will see
 
 ## Version
 
-### version | 1.0.7
+### version | 1.0.8
 
 - #### Updated | 2021-06-02
 - #### Created | 2021-05-18
