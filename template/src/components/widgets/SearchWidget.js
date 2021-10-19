@@ -1,5 +1,5 @@
 import Search from "esri/widgets/Search";
-import "./Widgets.scss";
+import "./widgets.scss";
 
 function SearchWidget(view) {
   const SearchWidget = new Search({ view });

@@ -1,5 +1,5 @@
 import Locate from "esri/widgets/Locate";
-import "./Widgets.scss";
+import "./widgets.scss";
 
 function LocateWidget(view) {
   const locateBtn = new Locate({ view });

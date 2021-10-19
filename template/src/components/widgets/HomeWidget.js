@@ -1,5 +1,5 @@
 import Home from "esri/widgets/Home";
-import "./Widgets.scss";
+import "./widgets.scss";
 
 function HomeWidget(view) {
   const HomeWidget = new Home({ view });
