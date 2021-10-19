@@ -2,12 +2,12 @@ import React, { useRef, useEffect } from "react";
 import ArcGISMap from "esri/Map";
 import MapView from "esri/views/MapView";
 
-import ZoomWidget from "../widgets/ZoomWidget";
-import HomeWidget from "../widgets/HomeWidget";
-import LocateWidget from "../widgets/LocateWidget";
-import BasemapToggleWidget from "../widgets/BasemapToggleWidget";
-import SearchWidget from "../widgets/SearchWidget";
-import LogoWidget from "../widgets/LogoWidget";
+import ZoomWidget from "../Widgets/zoomWidget";
+import HomeWidget from "../Widgets/homeWidget";
+import LocateWidget from "../Widgets/locateWidget";
+import BasemapToggleWidget from "../Widgets/basemapToggleWidget";
+import SearchWidget from "../Widgets/searchWidget";
+import LogoWidget from "../Widgets/logoWidget";
 
 import "./map.scss";
 

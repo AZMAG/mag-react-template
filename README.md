@@ -43,18 +43,15 @@ Running this commands will create a directory called `[my-app-name]` inside the 
     ├── components
     |   |── Layers
     |   |── Map
-    |   |   |── Map.css
-    |   |   |── Map.scss
-    |   |   └── Map.js
-    |   └── widgets
+    |   |   |── map.scss
+    |   |   └── map.js
+    |   └── Widgets
     ├── images
     |   |── various images
     ├── styles
-    |   |── _colors.scss
-    |   |── _typography.scss
-    |   |── App.css
+    |   |── colors.scss
+    |   |── typography.scss
     |   |── App.scss
-    |   |── index.css
     |   └── index.scss
     ├── App.js
     ├── App.test.js
