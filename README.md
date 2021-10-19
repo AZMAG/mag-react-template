@@ -78,9 +78,9 @@ The page will automatically reload if you make changes to the code. You will see
 
 ## Version
 
-### version | 1.0.8
+### version | 1.0.9
 
-- #### Updated | 2021-06-02
+- #### Updated | 2021-10-19
 - #### Created | 2021-05-18
 
 Releases will be numbered with the following format:
@@ -129,4 +129,4 @@ Code released under the MIT license.
 
 - [LICENSE](LICENSE)
 
-[(Back to top)](##Get-Started)
+[(Back to top)](#Get-Started)
