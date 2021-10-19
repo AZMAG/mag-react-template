@@ -9,7 +9,7 @@ import BasemapToggleWidget from "../widgets/BasemapToggleWidget";
 import SearchWidget from "../widgets/SearchWidget";
 import LogoWidget from "../widgets/LogoWidget";
 
-import "./Map.css";
+import "./map.scss";
 
 let map;
 let view;

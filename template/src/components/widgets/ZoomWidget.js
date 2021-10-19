@@ -1,5 +1,5 @@
 import Zoom from "esri/widgets/Zoom";
-import "./Widgets.css";
+import "./Widgets.scss";
 
 function ZoomWidget(view) {
   const zoom = new Zoom({ view });

@@ -4,7 +4,7 @@ import { MainMap } from "./components/Map/Map";
 import "@arcgis/core/assets/esri/themes/light/main.css";
 // import "@arcgis/core/assets/esri/themes/dark/main.css";
 
-import "./styles/App.css";
+import "./styles/App.scss";
 
 import LogoWidget from "./components/widgets/LogoWidget";
 

@@ -1,5 +1,5 @@
 import magLogo from "@images/mag-logo-black.png";
-import "./Widgets.css";
+import "./Widgets.scss";
 
 const style = {
   display: "none",

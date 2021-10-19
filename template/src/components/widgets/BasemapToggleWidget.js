@@ -1,5 +1,11 @@
 import BasemapToggle from "esri/widgets/BasemapToggle";
-import "./Widgets.css";
+import "./Widgets.const map = new Map({
+  basemap: "streets"
+});
+const view = new SceneView({
+  container: "viewDiv",
+  map:map
+});css";
 
 function BasemapToggleWidget(view) {
   const basemapToggle = new BasemapToggle({
