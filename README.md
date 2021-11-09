@@ -92,15 +92,15 @@ cd [my-app-name]
 npm start
 ```
 
-Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+Runs the app in development mode. Open http://localhost:2021 to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
 ## Version
 
-### version | 1.0.10
+### version | 1.1.0
 
-- #### Updated | 2021-10-19
+- #### Updated | 2021-11-09
 - #### Created | 2021-05-18
 
 Releases will be numbered with the following format:
@@ -119,6 +119,9 @@ A list of technologies used within the project:
 
 - [React](https://reactjs.org/): Version 17.02
 - [Create React App](https://github.com/facebook/create-react-app): Version 4.0.3
+- [React-Bootstrap](https://react-bootstrap.github.io/) Version 2.0.0
+- [Bootstrap](https://getbootstrap.com/) Version 5.1.x
+- [Kendo React Ui](https://www.telerik.com/kendo-react-ui/) Version 4.10.0
 
 ## Requirements
 
