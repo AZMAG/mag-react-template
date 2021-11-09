@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 export const DataContext = createContext();
 
-export const ReadOnDataProvider = (props) => {
+export const DataProvider = (props) => {
   const values = {};
 
   return (
