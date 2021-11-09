@@ -1,10 +1,14 @@
 ![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
 
-# MAG React Template for ArcGIS API JavaScript with create-react-app
+# mag-react-template
 
-![npm](https://img.shields.io/npm/v/cra-template-mag-react-template)
-[![Semver](http://img.shields.io/SemVer/2.0.0.png)](https://shields.io/)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+## MAG React Template for ArcGIS API JavaScript with create-react-app
+
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AZMAG/mag-react-template)
+[![npm version](https://badge.fury.io/js/cra-template-mag-react-template.svg)](https://badge.fury.io/js/cra-template-mag-react-template)
+[![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-react-template)](https://github.com/AZMAG/mag-react-template/issues)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
 
 This repo is a Maricopa Associations of Governments (MAG) template to create a react project using all of the features of Create React App.
 
