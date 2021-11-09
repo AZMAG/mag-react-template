@@ -35,6 +35,9 @@
       "email": "jfairfield@azmag.gov"
     }
   ],
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
@@ -49,6 +52,7 @@
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
+    "mag-prettier-config": "^1.0.3",
     "ncp": "^2.0.0",
     "prettier": "^2.3.0",
     "react-app-rewired": "^1.6.2"
@@ -82,9 +86,6 @@
   "engines": {
     "node": ">=16.2.0",
     "npm": ">=7.14.0"
-  },
-  "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
   },
   "files": [
     "template",
