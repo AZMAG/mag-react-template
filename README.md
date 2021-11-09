@@ -36,9 +36,14 @@ Running this commands will create a directory called `[my-app-name]` inside the 
 ├── package.json
 ├── .gitignore
 ├── public
+│   ├── images
+|   |   |── images
+|   |   |   └── favicons
 │   ├── favicon.ico
-│   ├── index.html
+│   ├── google.html
 │   ├── humans.txt
+│   ├── index.html
+│   ├── LICENSE
 │   ├── manifest.json
 │   ├── robots.txt
 │   └── images
@@ -48,8 +53,19 @@ Running this commands will create a directory called `[my-app-name]` inside the 
     |   |── Layers
     |   |── Map
     |   |   |── map.scss
-    |   |   └── map.js
-    |   └── Widgets
+    |   |   |── map.js
+    |   |   |__ package.json
+    |   |── Widgets
+    |   |   |── basemapToggleWidget.js
+    |   |   |── homeWidget.js
+    |   |   |── locateWidget.js
+    |   |   |── logoWidget.js
+    |   |   |── searchWidget.js
+    |   |   |── widgets.scss
+    |   |   |__ zoomWidget.js
+    ├── config
+    ├── context
+    |   |── DataContext.js
     ├── images
     |   |── various images
     ├── styles
@@ -76,7 +92,7 @@ cd [my-app-name]
 npm start
 ```
 
-Runs the app in development mode. Open http://localhost: 2021 to view it in the browser.
+Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
