@@ -57,6 +57,7 @@
       "production": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"],
       "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
     },
+    "prettier": "mag-prettier-config",
     "engines": {
       "node": ">=15.11.0",
       "npm": ">=7.14.0"

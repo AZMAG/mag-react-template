@@ -65,6 +65,7 @@
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
+  "prettier": "mag-prettier-config",
   "eslintConfig": {
     "extends": [
       "react-app",
