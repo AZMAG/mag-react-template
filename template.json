@@ -22,6 +22,7 @@
         "email": "jfairfield@azmag.gov"
       }
     ],
+    "homepage": ".",
     "dependencies": {
       "@arcgis/core": "^4.21.2",
       "@progress/kendo-react-common": "^4.6.0",
