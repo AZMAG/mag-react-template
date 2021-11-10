@@ -36,6 +36,10 @@ A list of technologies used within the project:
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
+## Disclaimer
+
+- [DISCLAIMER](DISCLAIMER.md)
+
 ## Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
