@@ -98,9 +98,9 @@ The page will automatically reload if you make changes to the code. You will see
 
 ## Version
 
-### version | 1.1.1
+### version | 1.1.2
 
-- #### Updated | 2021-11-09
+- #### Updated | 2021-11-10
 - #### Created | 2021-05-18
 
 Releases will be numbered with the following format:
