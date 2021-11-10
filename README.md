@@ -144,6 +144,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
+## Disclaimer
+
+- [DISCLAIMER](DISCLAIMER.md)
+
 ## Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
