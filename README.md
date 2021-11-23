@@ -119,9 +119,9 @@ A list of technologies used within the project:
 
 - [React](https://reactjs.org/): Version 17.02
 - [Create React App](https://github.com/facebook/create-react-app): Version 4.0.3
-- [React-Bootstrap](https://react-bootstrap.github.io/) Version 2.0.0
-- [Bootstrap](https://getbootstrap.com/) Version 5.1.x
-- [Kendo React Ui](https://www.telerik.com/kendo-react-ui/) Version 4.10.0
+- [React-Bootstrap](https://react-bootstrap.github.io/): Version 2.0.0
+- [Bootstrap](https://getbootstrap.com/): Version 5.1.x
+- [Kendo React Ui](https://www.telerik.com/kendo-react-ui/): Version 4.10.0
 
 ## Requirements
 
