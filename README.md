@@ -3,6 +3,8 @@
 # mag-react-template
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template?style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-react-template?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-react-template?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-react-template?style=flat-square)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-react-template?style=flat-square)
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
