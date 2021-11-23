@@ -2,11 +2,11 @@
 
 # mag-react-template
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AZMAG/mag-react-template)
-[![npm version](https://badge.fury.io/js/cra-template-mag-react-template.svg)](https://badge.fury.io/js/cra-template-mag-react-template)
-[![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-react-template)](https://github.com/AZMAG/mag-react-template/issues)
-[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-react-template?style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-react-template?style=flat-square)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template?style=flat-square)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
 
 ## MAG React Template for ArcGIS API JavaScript with create-react-app
 
@@ -80,7 +80,7 @@ Running this commands will create a directory called `[my-app-name]` inside the 
     └── setupTests.js
 ```
 
-## Installation
+## :gear: Installation
 
 Once the installation is done, you can open your project folder:
 
@@ -140,20 +140,20 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Credits
+## :star: Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
-## Disclaimer
+## :zap: Disclaimer
 
 - [DISCLAIMER](DISCLAIMER.md)
 
-## Licensing
+## :warning: Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
 
-Code released under the MIT license.
+This project is licensed under the MIT license.
 
-- [LICENSE](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template?style=flat-square)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
 
 [(Back to top)](#Get-Started)
