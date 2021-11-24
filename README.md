@@ -14,6 +14,9 @@
 
 This repo is a Maricopa Associations of Governments (MAG) template to create a react project using all of the features of Create React App.
 
+## :key: Keywords
+`react` `react-remplate` `create-react-app` `cra-template` `template` `maps` `mag` `mpo` `cog` `mag-maps`
+
 ## Get Started
 
 ```
@@ -98,7 +101,7 @@ Runs the app in development mode. Open http://localhost:2021 to view it in the b
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
-## Version
+##  Version
 
 ### version | 1.2.0
 
@@ -124,6 +127,17 @@ A list of technologies used within the project:
 - [React-Bootstrap](https://react-bootstrap.github.io/): Version 2.0.0
 - [Bootstrap](https://getbootstrap.com/): Version 5.1.x
 - [Kendo React Ui](https://www.telerik.com/kendo-react-ui/): Version 4.10.0
+
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://sass-lang.com/" title="Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/sass.svg" alt="Sass" width="31px" height="31px"></a>
+<a href="https://github.com/sass/node-sass" title="Node-Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/node-sass.svg" alt="Node-Sass" width="31px" height="31px"></a>
+<a href="https://getbootstrap.com/" title="Bootstrap"><img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="31px" height="31px"></a>
+<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
 
 ## Requirements
 
