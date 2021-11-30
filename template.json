@@ -43,6 +43,7 @@
       "react-joyride": "^2.3.0",
       "replace-in-file": "^6.3.2",
       "prettier": "^2.3.0",
+      "eslint": "^8.3.0",
       "eslint-config-prettier": "^8.3.0",
       "mag-prettier-config": "^1.0.3",
       "react-ga": "^3.3.0"
@@ -56,7 +57,12 @@
     },
     "prettier": "mag-prettier-config",
     "eslintConfig": {
-      "extends": ["react-app", "react-app/jest", "prettier"]
+      "extends": ["react-app", "react-app/jest", "prettier"],
+      "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+      }
     },
     "browserslist": {
       "production": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"],

@@ -2,11 +2,12 @@
 
 # mag-react-template
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template?style=flat-square)
-![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-react-template?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-react-template?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-react-template?style=flat-square)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template?&logo=github&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-react-template?&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-react-template?&logo=github&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-react-template?&logo=github&style=flat-square)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-react-template?style=flat-square)
+![npm](https://img.shields.io/npm/v/cra-template-mag-react-template?color=crimson&logo=npm&style=flat-square)
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template?style=flat-square)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
 
@@ -15,9 +16,12 @@
 This repo is a Maricopa Associations of Governments (MAG) template to create a react project using all of the features of Create React App.
 
 ## :key: Keywords
-`react` `react-remplate` `create-react-app` `cra-template` `template` `maps` `mag` `mpo` `cog` `mag-maps`
 
-## Get Started
+`react` `react-remplate` `create-react-app` `cra-template` `template` `mag` `maps`
+
+## :gear: Installation
+
+### Install with npx
 
 ```
 npx create-react-app [my-app-name] --template mag-react-template
@@ -30,6 +34,8 @@ npx create-react-app [my-app-name] --template mag-react-template
 ## Output
 
 Running this commands will create a directory called `[my-app-name]` inside the current folder. Inside that directory, it will generate the initial project structure and install the dependencies:
+
+<details><summary><strong>Template Directory</strong></summary><p>
 
 ```
 [my-app-name]
@@ -85,7 +91,9 @@ Running this commands will create a directory called `[my-app-name]` inside the 
     └── setupTests.js
 ```
 
-## :gear: Installation
+</p></details>
+
+## Get Started
 
 Once the installation is done, you can open your project folder:
 
@@ -97,11 +105,11 @@ cd [my-app-name]
 npm start
 ```
 
-Runs the app in development mode. Open http://localhost:2021 to view it in the browser.
+Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
-##  Version
+## Version
 
 ### version | 1.2.0
 
@@ -122,8 +130,8 @@ And constructed with the following guidelines:
 
 A list of technologies used within the project:
 
-- [Create React App](https://github.com/facebook/create-react-app): Version 4.0.3
-- [React-Bootstrap](https://react-bootstrap.github.io/): Version 2.0.0
+- [Create React App](https://github.com/facebook/create-react-app)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
 
 <a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
@@ -138,8 +146,6 @@ A list of technologies used within the project:
 <a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
 <a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
 <a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
-
-
 
 ## Requirements
 
@@ -174,4 +180,4 @@ This project is licensed under the MIT license.
 
 [![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template?style=flat-square)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
 
-[(Back to top)](#Get-Started)
+[(Back to top)](#mag-react-template)
