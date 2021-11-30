@@ -118,15 +118,15 @@ npm start
 ```
 
 Runs the app in development mode.
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:2021 to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
 ## Version
 
-### version | 1.2.0
+### version | 1.3.0
 
-- #### Updated | 2021-11-10
+- #### Updated | 2021-11-30
 - #### Created | 2021-05-18
 
 Releases will be numbered with the following format:
