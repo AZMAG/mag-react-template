@@ -2,10 +2,10 @@
 
 # MAG React Template
 
-[![Semver](http://img.shields.io/SemVer/2.0.0.png)](https://shields.io/)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-## Keywords
+## :key: Keywords
 
 ## Version
 
@@ -28,23 +28,35 @@ And constructed with the following guidelines:
 
 A list of technologies used within the project:
 
-- [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/): Version 4.19.0
-- [React Bootstrap](https://react-bootstrap.github.io/): Version 1.6.0
-- [KendoReact](https://www.telerik.com/kendo-react-ui/b/): Version 4.7.0
+- [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/)
 
-## Credits
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://sass-lang.com/" title="Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/sass.svg" alt="Sass" width="31px" height="31px"></a>
+<a href="https://github.com/sass/node-sass" title="Node-Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/node-sass.svg" alt="Node-Sass" width="31px" height="31px"></a>
+<a href="https://getbootstrap.com/" title="Bootstrap"><img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="31px" height="31px"></a>
+<a href="https://www.telerik.com/kendo-react-ui/components/" title="KendoReact"><img src="https://github.com/get-icon/geticon/raw/master/icons/progress.svg" alt="KendoReact" width="31px" height="31px"></a>
+<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
+
+## :star: Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
-## Disclaimer
+## :zap: Disclaimer
 
 - [DISCLAIMER](DISCLAIMER.md)
 
-## Licensing
+## :warning: Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
 
-Code released under the MIT license.
+This project is licensed under the MIT license.
 
 - [LICENSE](LICENSE)
 

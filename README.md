@@ -21,11 +21,21 @@ This repo is a Maricopa Associations of Governments (MAG) template to create a r
 
 ## :gear: Installation
 
+When creating a new react-project, run the following command:
+
 ### Install with npx
 
 ```
 npx create-react-app [my-app-name] --template mag-react-template
 ```
+
+<details><summary>Install with <code>yarn</code></summary><p>
+
+```bash
+$ yarn create-react-app [my-app-name] --template mag-react-template
+```
+
+</p></details>
 
 `[my-app-name]` should be changed to the actual name of your project and must follow the convention package.json guidelines.
 
@@ -101,11 +111,14 @@ Once the installation is done, you can open your project folder:
 cd [my-app-name]
 ```
 
+In the project directory, you can run:
+
 ```
 npm start
 ```
 
-Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+Runs the app in development mode.
+Open http://localhost:3000 to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
