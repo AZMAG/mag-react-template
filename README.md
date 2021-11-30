@@ -2,21 +2,40 @@
 
 # mag-react-template
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/AZMAG/mag-react-template)
-[![npm version](https://badge.fury.io/js/cra-template-mag-react-template.svg)](https://badge.fury.io/js/cra-template-mag-react-template)
-[![GitHub issues](https://img.shields.io/github/issues/AZMAG/mag-react-template)](https://github.com/AZMAG/mag-react-template/issues)
-[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-react-template?&logo=github&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-react-template?&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AZMAG/mag-react-template?&logo=github&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/AZMAG/mag-react-template?&logo=github&style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-react-template?style=flat-square)
+![npm](https://img.shields.io/npm/v/cra-template-mag-react-template?color=crimson&logo=npm&style=flat-square)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template?style=flat-square)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
 
 ## MAG React Template for ArcGIS API JavaScript with create-react-app
 
 This repo is a Maricopa Associations of Governments (MAG) template to create a react project using all of the features of Create React App.
 
-## Get Started
+## :key: Keywords
+
+`react` `react-remplate` `create-react-app` `cra-template` `template` `mag` `maps`
+
+## :gear: Installation
+
+When creating a new react-project, run the following command:
+
+### Install with npx
 
 ```
 npx create-react-app [my-app-name] --template mag-react-template
 ```
+
+<details><summary>Install with <code>yarn</code></summary><p>
+
+```bash
+$ yarn create-react-app [my-app-name] --template mag-react-template
+```
+
+</p></details>
 
 `[my-app-name]` should be changed to the actual name of your project and must follow the convention package.json guidelines.
 
@@ -25,6 +44,8 @@ npx create-react-app [my-app-name] --template mag-react-template
 ## Output
 
 Running this commands will create a directory called `[my-app-name]` inside the current folder. Inside that directory, it will generate the initial project structure and install the dependencies:
+
+<details><summary><strong>Template Directory</strong></summary><p>
 
 ```
 [my-app-name]
@@ -80,7 +101,9 @@ Running this commands will create a directory called `[my-app-name]` inside the 
     └── setupTests.js
 ```
 
-## Installation
+</p></details>
+
+## Get Started
 
 Once the installation is done, you can open your project folder:
 
@@ -88,19 +111,22 @@ Once the installation is done, you can open your project folder:
 cd [my-app-name]
 ```
 
+In the project directory, you can run:
+
 ```
 npm start
 ```
 
-Runs the app in development mode. Open http://localhost:2021 to view it in the browser.
+Runs the app in development mode.
+Open `http://localhost:3000` to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
 ## Version
 
-### version | 1.2.0
+### version | 1.3.0
 
-- #### Updated | 2021-11-10
+- #### Updated | 2021-11-30
 - #### Created | 2021-05-18
 
 Releases will be numbered with the following format:
@@ -117,11 +143,22 @@ And constructed with the following guidelines:
 
 A list of technologies used within the project:
 
-- [React](https://reactjs.org/): Version 17.02
-- [Create React App](https://github.com/facebook/create-react-app): Version 4.0.3
-- [React-Bootstrap](https://react-bootstrap.github.io/) Version 2.0.0
-- [Bootstrap](https://getbootstrap.com/) Version 5.1.x
-- [Kendo React Ui](https://www.telerik.com/kendo-react-ui/) Version 4.10.0
+- [Create React App](https://github.com/facebook/create-react-app)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://sass-lang.com/" title="Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/sass.svg" alt="Sass" width="31px" height="31px"></a>
+<a href="https://github.com/sass/node-sass" title="Node-Sass"><img src="https://github.com/get-icon/geticon/raw/master/icons/node-sass.svg" alt="Node-Sass" width="31px" height="31px"></a>
+<a href="https://getbootstrap.com/" title="Bootstrap"><img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="31px" height="31px"></a>
+<a href="https://www.telerik.com/kendo-react-ui/components/" title="KendoReact"><img src="https://github.com/get-icon/geticon/raw/master/icons/progress.svg" alt="KendoReact" width="31px" height="31px"></a>
+<a href="https://fontawesome.com/" title="Font-Awesome"><img src="https://github.com/get-icon/geticon/raw/master/icons/font-awesome.svg" alt="Font-Awesome" width="31px" height="31px"></a>
+<a href="https://eslint.org/" title="ESLint"><img src="https://github.com/get-icon/geticon/raw/master/icons/eslint.svg" alt="ESLint" width="31px" height="31px"></a>
+<a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
+<a href="https://www.npmjs.com/" title="npm"><img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="31px" height="31px"></a>
+<a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
 
 ## Requirements
 
@@ -140,20 +177,20 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Credits
+## :star: Credits
 
 `Maricopa Association of Governments (MAG) and the MAG member agencies`
 
-## Disclaimer
+## :zap: Disclaimer
 
 - [DISCLAIMER](DISCLAIMER.md)
 
-## Licensing
+## :warning: Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
 
-Code released under the MIT license.
+This project is licensed under the MIT license.
 
-- [LICENSE](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/mag-react-template?style=flat-square)](https://github.com/AZMAG/mag-react-template/blob/main/LICENSE)
 
-[(Back to top)](#Get-Started)
+[(Back to top)](#mag-react-template)
