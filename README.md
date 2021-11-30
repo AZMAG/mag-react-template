@@ -124,7 +124,7 @@ The page will automatically reload if you make changes to the code. You will see
 
 ## Version
 
-### version | 1.3.0
+### version | 1.3.1
 
 - #### Updated | 2021-11-30
 - #### Created | 2021-05-18
