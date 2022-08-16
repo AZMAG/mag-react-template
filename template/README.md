@@ -54,7 +54,7 @@ A list of technologies used within the project:
 
 ## :warning: Licensing
 
-Copyright 2021 Maricopa Association of Governments (MAG)
+Copyright 2022 Maricopa Association of Governments (MAG)
 
 This project is licensed under the MIT license.
 
