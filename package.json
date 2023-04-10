@@ -1,6 +1,6 @@
 {
   "name": "cra-template-mag-react-template",
-  "version": "1.5.0",
+  "version": "1.5.4",
   "date": "2023-04-10",
   "copyright": "2023",
   "description": "The MAG template for Create React App.",
@@ -37,8 +37,6 @@
     "url": "https://github.com/facebook/create-react-app/issues"
   },
   "dependencies": {
-    "mag-react-components": "^1.0.35",
-    "np": "^7.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
@@ -48,18 +46,16 @@
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "mag-prettier-config": "^1.1.1",
-    "ncp": "^2.0.0",
     "prettier": "^2.7.1",
-    "react-app-rewired": "^2.2.1",
     "replace-in-file": "^6.3.5"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "npm run replace && react-app-rewired build",
+    "start": "react-scripts start",
+    "build": "npm run replace && react-scripts build",
     "prepublishOnly": "npm run replace",
     "replace": "node replaceScripts",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "prettier": "mag-prettier-config",
   "eslintConfig": {

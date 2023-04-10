@@ -118,13 +118,13 @@ npm start
 ```
 
 Runs the app in development mode.
-Open `http://localhost:2023` to view it in the browser.
+Open `http://localhost:3000` to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
 ## Version
 
-### version | 1.5.0
+### version | 1.5.4
 
 - #### Updated | 2023-04-10
 - #### Created | 2021-05-18
@@ -188,7 +188,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## :warning: Licensing
 
-Copyright 2022 Maricopa Association of Governments (MAG)
+Copyright 2023 Maricopa Association of Governments (MAG)
 
 This project is licensed under the MIT license.
 

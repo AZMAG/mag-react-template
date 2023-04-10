@@ -1,4 +1,4 @@
-import magLogo from "@images/mag-logo-black.png"
+import magLogo from "../../images/mag-logo-black.png"
 import "./widgets.css"
 
 const style = {

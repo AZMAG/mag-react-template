@@ -9,6 +9,7 @@ import LocateWidget from "../Widgets/locateWidget"
 import BasemapToggleWidget from "../Widgets/basemapToggleWidget"
 import SearchWidget from "../Widgets/searchWidget"
 import LogoWidget from "../Widgets/logoWidget"
+import DocConfig from "../../config/DocConfig"
 
 let map
 let view
