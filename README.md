@@ -17,7 +17,7 @@ This repo is a Maricopa Associations of Governments (MAG) template to create a r
 
 ## :key: Keywords
 
-`react` `react-remplate` `create-react-app` `cra-template` `template` `mag` `maps`
+`react` `react-template` `create-react-app` `cra-template` `template` `mag` `maps`
 
 ## :gear: Installation
 
@@ -118,15 +118,15 @@ npm start
 ```
 
 Runs the app in development mode.
-Open `http://localhost:2022` to view it in the browser.
+Open `http://localhost:2023` to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
 ## Version
 
-### version | 1.4.1
+### version | 1.5.0
 
-- #### Updated | 2022-08-16
+- #### Updated | 2023-04-10
 - #### Created | 2021-05-18
 
 Releases will be numbered with the following format:
@@ -170,6 +170,7 @@ This repo demonstrates how to use [@arcgis/core](https://www.npmjs.com/package/@
 
 For additional information, see the [Build with ES modules](https://developers.arcgis.com/javascript/latest/es-modules/) Guide topic in the SDK.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Good YouTube Video: [Create React App Templates - Learn how to create your own template for CRA](https://www.youtube.com/watch?v=m6hHfkOYYuw&t=658s)
 
 ## Learn More
 

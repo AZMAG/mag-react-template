@@ -4,7 +4,7 @@ import "@arcgis/core/assets/esri/themes/light/main.css"
 
 import { MainMap } from "./components/Map"
 import LogoWidget from "./components/Widgets/logoWidget"
-import { DataProvider } from "./context/DataContext"
+import { DataProvider } from "./contextStore/DataContext"
 
 export default function App() {
   return (
