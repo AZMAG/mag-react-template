@@ -37,7 +37,6 @@ humanstxt.org/
         Hanyi Li -- @azmag
         Peter Burnett -- @azmag
         Maggie Wong -- @azmag
-        Christian Gort -- @azmag
         Nicole Funicello -- @azmag
         Deborah Brown -- @azmag
         Mark Roberts -- @azmag
