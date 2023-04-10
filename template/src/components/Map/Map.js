@@ -1,29 +1,29 @@
-import React, { useRef, useEffect } from "react";
-import ArcGISMap from "esri/Map";
-import MapView from "esri/views/MapView";
+import React, { useRef, useEffect } from "react"
+import esriConfig from "@arcgis/core/config"
+import ArcGISMap from "@arcgis/core/Map"
+import MapView from "@arcgis/core/views/MapView"
 
-import ZoomWidget from "../Widgets/zoomWidget";
-import HomeWidget from "../Widgets/homeWidget";
-import LocateWidget from "../Widgets/locateWidget";
-import BasemapToggleWidget from "../Widgets/basemapToggleWidget";
-import SearchWidget from "../Widgets/searchWidget";
-import LogoWidget from "../Widgets/logoWidget";
+import ZoomWidget from "../Widgets/zoomWidget"
+import HomeWidget from "../Widgets/homeWidget"
+import LocateWidget from "../Widgets/locateWidget"
+import BasemapToggleWidget from "../Widgets/basemapToggleWidget"
+import SearchWidget from "../Widgets/searchWidget"
+import LogoWidget from "../Widgets/logoWidget"
 
-import "./map.scss";
-
-let map;
-let view;
+let map
+let view
 
 function MainMap() {
-  const mapDiv = useRef(null);
+  const mapDiv = useRef(null)
 
   useEffect(() => {
     if (mapDiv.current) {
+      esriConfig.apiKey = DocConfig.esriConfig_apiKey
       // basemap info
       // https://developers.arcgis.com/javascript/latest/api-reference/esri-Map.html#basemap
       map = new ArcGISMap({
         basemap: "osm",
-      });
+      })
 
       view = new MapView({
         map,
@@ -45,26 +45,26 @@ function MainMap() {
             breakpoint: false,
           },
         },
-      });
+      })
     }
     // Call Widgets
-    ZoomWidget(view);
-    HomeWidget(view);
-    LocateWidget(view);
-    BasemapToggleWidget(view);
-    LogoWidget(view);
-    SearchWidget(view);
-  }, []);
+    ZoomWidget(view)
+    HomeWidget(view)
+    LocateWidget(view)
+    BasemapToggleWidget(view)
+    LogoWidget(view)
+    SearchWidget(view)
+  }, [])
 
-  return <div className="mapDiv" ref={mapDiv}></div>;
+  return <div id="map" className="h-full w-full m-auto" ref={mapDiv}></div>
 }
 
 function getMapRef() {
-  return { map, view };
+  return { map, view }
 }
 
 function displayMessage(info) {
-  console.log(info);
+  console.log(info)
 }
 
-export { getMapRef, MainMap };
+export { getMapRef, MainMap }

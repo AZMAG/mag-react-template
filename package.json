@@ -1,8 +1,8 @@
 {
   "name": "cra-template-mag-react-template",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "date": "2022-08-16",
-  "copyright": "2022",
+  "copyright": "2023",
   "description": "The MAG template for Create React App.",
   "keywords": [
     "react",
@@ -37,15 +37,11 @@
     "url": "https://github.com/facebook/create-react-app/issues"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.4.3",
     "mag-react-components": "^1.0.35",
     "np": "^7.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
@@ -59,7 +55,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "npm run replace && react-app-rewired build",
     "prepublishOnly": "npm run replace",
     "replace": "node replaceScripts",
     "test": "react-app-rewired test",

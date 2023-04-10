@@ -1,11 +1,11 @@
-import Zoom from "esri/widgets/Zoom";
-import "./widgets.scss";
+import Zoom from "@arcgis/core/widgets/Zoom"
+import "./widgets.css"
 
 function ZoomWidget(view) {
-  const zoom = new Zoom({ view });
-  view.ui.add(zoom, "bottom-right");
+  const zoom = new Zoom({ view })
+  view.ui.add(zoom, "bottom-right")
 }
 
-export default ZoomWidget;
+export default ZoomWidget
 
 // Widgets called in Map.js

@@ -1,11 +1,11 @@
-import Search from "esri/widgets/Search";
-import "./widgets.scss";
+import Search from "@arcgis/core/widgets/Search"
+import "./widgets.css"
 
 function SearchWidget(view) {
-  const SearchWidget = new Search({ view });
-  view.ui.add(SearchWidget, "top-right");
+  const SearchWidget = new Search({ view })
+  view.ui.add(SearchWidget, "top-right")
 }
 
-export default SearchWidget;
+export default SearchWidget
 
 // Widgets called in Map.js

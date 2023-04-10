@@ -1,32 +1,18 @@
-import React from "react";
-import ReactGA from "react-ga";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "@progress/kendo-theme-default/dist/all.css";
-import "@arcgis/core/assets/esri/themes/light/main.css";
-// import "@arcgis/core/assets/esri/themes/dark/main.css";
-import "./styles/App.scss";
-import { MainMap } from "./components/Map";
-import LogoWidget from "./components/Widgets/logoWidget";
-import { DataProvider } from "./context/DataContext";
+import React from "react"
+import "@progress/kendo-theme-default/dist/all.css"
+import "@arcgis/core/assets/esri/themes/light/main.css"
 
-function App() {
-  const TRACKING_ID = "UA-29422512-1";
-  ReactGA.initialize(TRACKING_ID, {
-    debug: true,
-    titleCase: false,
-    gaOptions: {},
-  });
+import { MainMap } from "./components/Map"
+import LogoWidget from "./components/Widgets/logoWidget"
+import { DataProvider } from "./context/DataContext"
 
+export default function App() {
   return (
-    <>
-      <div className="app-container">
-        <DataProvider>
-          <MainMap visible={true} />
-          <LogoWidget />
-        </DataProvider>
-      </div>
-    </>
-  );
+    <body className="flex flex-col h-screen w-screen">
+      <DataProvider>
+        <MainMap visible={true} />
+        <LogoWidget />
+      </DataProvider>
+    </body>
+  )
 }
-
-export default App;

@@ -1,5 +1,5 @@
-import magLogo from "@images/mag-logo-black.png";
-import "./widgets.scss";
+import magLogo from "@images/mag-logo-black.png"
+import "./widgets.css"
 
 const style = {
   display: "none",
@@ -7,7 +7,7 @@ const style = {
   width: "200px",
   alignItems: "center",
   justifyContent: "center",
-};
+}
 
 function LogoWidget(view) {
   return (
@@ -20,9 +20,9 @@ function LogoWidget(view) {
         alt="MAG Logo"
       />
     </div>
-  );
+  )
 }
 
-export default LogoWidget;
+export default LogoWidget
 
 // Widgets called in Map.js

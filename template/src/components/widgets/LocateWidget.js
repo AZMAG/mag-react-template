@@ -1,10 +1,10 @@
-import Locate from "esri/widgets/Locate";
-import "./widgets.scss";
+import Locate from "@arcgis/core/widgets/Locate"
+import "./widgets.css"
 
 function LocateWidget(view) {
-  const locateBtn = new Locate({ view });
-  view.ui.add(locateBtn, "bottom-right");
+  const locateBtn = new Locate({ view })
+  view.ui.add(locateBtn, "bottom-right")
 }
-export default LocateWidget;
+export default LocateWidget
 
 // Widgets called in Map.js
